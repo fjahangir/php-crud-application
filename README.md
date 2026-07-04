@@ -1,15 +1,19 @@
 # PHP CRUD Application
 
-A simple and responsive **PHP CRUD (Create, Read, Update, Delete)** application built with **PHP, MySQL, Bootstrap 5, HTML, and CSS**. This project demonstrates the fundamental database operations used in web development.
+A simple PHP CRUD (Create, Read, Update, Delete) application built using **PHP, MySQL, HTML, CSS, Bootstrap, and JavaScript**. This project allows users to manage student records through a responsive web interface.
 
-## ✨ Features
+---
 
-* ➕ Add new student records
-* 📋 View all student records
-* ✏️ Update existing student details
-* 🗑️ Delete student records
-* 🎨 Responsive user interface with Bootstrap 5
-* 🗄️ MySQL database connectivity
+## 🚀 Features
+
+* ➕ Add Student
+* 📋 View Student Records
+* ✏️ Update Student Details
+* 🗑️ Delete Student Records
+* 📱 Responsive Bootstrap UI
+* 🔔 SweetAlert2 Success & Error Messages
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -18,82 +22,94 @@ A simple and responsive **PHP CRUD (Create, Read, Update, Delete)** application 
 * HTML5
 * CSS3
 * Bootstrap 5
+* JavaScript
+* SweetAlert2
 * XAMPP
 
-## 📁 Project Structure
+---
+
+## 📂 Project Structure
 
 ```text
-php-crud-application/
-│── CRUD_OPS.php
-│── delete_page.php
-│── footer.php
-│── header.php
+crud_operation/
 │── index.php
+│── CRUD_OPS.php
 │── insert_data.php
-│── update_page.php
+│── update_data.php
+│── delete_data.php
+│── header.php
+│── footer.php
 │── style.css
-└── README.md
+│── database.sql
+│── README.md
 ```
 
-## 🚀 Getting Started
+---
 
-### Prerequisites
+## ⚙️ Installation
 
-* XAMPP
-* PHP 8.x or later
-* MySQL
-* Web Browser
+1. Clone the repository.
 
-### Installation
+```bash
+git clone https://github.com/fjahangir/PHP-CRUD-Application.git
+```
 
-1. Clone the repository:
+2. Move the project folder to:
 
-   ```bash
-   git clone https://github.com/fjahangir/php-crud-application.git
-   ```
+```text
+C:\xampp\htdocs\
+```
 
-2. Move the project to the `htdocs` folder if required.
+3. Start **Apache** and **MySQL** using XAMPP.
 
-3. Start **Apache** and **MySQL** from the XAMPP Control Panel.
+4. Create a database named:
 
-4. Create a MySQL database.
+```sql
+crud_operation
+```
 
-5. Import the SQL file (if available) or create the `students` table.
+5. Import the SQL file into phpMyAdmin.
 
-6. Update your database credentials in `CRUD_OPS.php`.
+6. Open the project:
 
-7. Open your browser and visit:
+```text
+http://localhost/crud_operation/
+```
 
-   ```
-   http://localhost/php-crud-application/
-   ```
+---
 
-## 🗄️ Database Schema
+## 🎥 Demo Videos
 
-**Table Name:** `students`
+### 🏠 Home Page Demo
 
-| Column     | Type                           |
-| ---------- | ------------------------------ |
-| ID         | INT AUTO_INCREMENT PRIMARY KEY |
-| FIRST_NAME | VARCHAR(100)                   |
-| LAST_NAME  | VARCHAR(100)                   |
-| AGE        | INT                            |
+Click to watch:
 
-## 📸 Application Features
+**home-page-demo.mp4**
 
-* Create student records
-* Read and display all records
-* Update student information
-* Delete student records
+### 💻 CRUD Operations Demo
 
-## 📌 Future Enhancements
+Click to watch:
 
-* Form validation
-* Prepared statements for improved security
-* Search and filter records
-* Pagination
-* Login and authentication
-* Dashboard with statistics
+**crud-demo.mp4**
+
+### 👨‍💻 Code Walkthrough
+
+Click to watch:
+
+**code-demo.mp4**
+
+> Replace the filenames above with your actual uploaded MP4 filenames.
+
+---
+
+## 📸 Screenshots
+
+* Home Page
+* Add Student
+* Update Student
+* Delete Student
+
+---
 
 ## 👩‍💻 Author
 
@@ -103,4 +119,4 @@ GitHub: https://github.com/fjahangir
 
 ---
 
-This project was developed for learning and practicing PHP, MySQL, and CRUD operations.
+## ⭐ If you like this project, don't forget to star the repository!
